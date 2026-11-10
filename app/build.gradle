@@ -1,0 +1,71 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'ru.kirddos.exta2dp'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "ru.kirddos.exta2dp"
+        minSdk 34
+        targetSdk 34
+        versionCode 300
+        versionName "3.0.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        externalNativeBuild {
+            cmake {
+                cppFlags '-std=c++11'
+            }
+        }
+        ndk {
+            //noinspection ChromeOsAbiSupport
+            abiFilters 'arm64-v8a'
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    packagingOptions {
+        resources {
+            merges += "META-INF/xposed/*"
+            excludes += "**"
+        }
+    }
+
+    ndkVersion '26.2.11394342'
+    externalNativeBuild {
+        cmake {
+            path file('src/main/cpp/CMakeLists.txt')
+            version '3.22.1'
+        }
+    }
+}
+
+
+
+dependencies {
+    implementation 'com.github.topjohnwu.libsu:core:5.2.2'
+    implementation 'org.lsposed.hiddenapibypass:hiddenapibypass:4.3'
+    implementation 'com.google.android.material:material:1.11.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'androidx.test:monitor:1.6.1'
+    implementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'junit:junit:4.12'
+    // libxposed API 101 (Maven Central). api is provided by the framework at runtime.
+    compileOnly 'io.github.libxposed:api:101.0.0'
+    // service pulls io.github.libxposed:interface transitively
+    // (102.x requires consumers to use compileSdk >= 37, so stay on 101.0.0)
+    implementation 'io.github.libxposed:service:101.0.0'
+}

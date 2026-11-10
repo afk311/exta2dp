@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Titles for Bluetooth Audio Codec selection preference. [CHAR LIMIT=50] -->
+    <string-array name="bluetooth_a2dp_codec_titles">
+        <item>Use System Selection (Default)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Qualcomm® aptX™ audio</item>
+        <item>Qualcomm® aptX™ HD audio</item>
+        <item>LDAC</item>
+        <item>LC3</item>
+        <item>Opus</item>
+        <item>Qualcomm® aptX™ Adaptive audio</item>
+        <item>Qualcomm® aptX™ TWS+  audio</item>
+        <item>Savitech® LHDC V2™</item>
+        <item>Savitech® LHDC V3/V4™</item>
+        <item>Savitech® LHDC-V™</item>
+        <item>LC3plus HR</item>
+        <item>FLAC</item>
+    </string-array>
+
+    <!-- Values for Bluetooth Audio Codec selection preference. -->
+    <string-array name="bluetooth_a2dp_codec_values" translatable="false">
+        <item>1000000</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+    </string-array>
+
+    <!-- Summaries for Bluetooth Audio Codec selection preference. [CHAR LIMIT=50]-->
+    <string-array name="bluetooth_a2dp_codec_summaries">
+        <item>Use System Selection (Default)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Qualcomm® aptX™ audio</item>
+        <item>Qualcomm® aptX™ HD audio</item>
+        <item>LDAC</item>
+        <item>LC3</item>
+        <item>Opus</item>
+        <item>Qualcomm® aptX™ Adaptive audio</item>
+        <item>Qualcomm® aptX™ TWS+audio</item>
+        <item>Savitech® LHDC V2™</item>
+        <item>Savitech® LHDC V3/V4™</item>
+        <item>Savitech® LHDC-V™</item>
+        <item>LC3plus HR</item>
+        <item>FLAC</item>
+    </string-array>
+
+    <!-- Titles for Bluetooth Audio Codec Sample Rate selection preference. [CHAR LIMIT=50] -->
+    <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
+        <item>Use System Selection (Default)</item>
+        <item>44.1 kHz</item>
+        <item>48.0 kHz</item>
+        <item>88.2 kHz</item>
+        <item>96.0 kHz</item>
+        <item>176.4 kHz</item>
+        <item>192.0 kHz</item>
+    </string-array>
+
+    <!-- Values for Bluetooth Audio Codec Sample Rate selection preference. -->
+    <string-array name="bluetooth_a2dp_codec_sample_rate_values" translatable="false" >
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>4</item>
+        <item>8</item>
+        <item>16</item>
+        <item>32</item>
+    </string-array>
+
+
+
+    <!-- Summaries for Bluetooth Audio Codec Sample Rate selection preference. [CHAR LIMIT=50]-->
+    <string-array name="bluetooth_a2dp_codec_sample_rate_summaries" >
+        <item>Use System Selection (Default)</item>
+        <item>44.1 kHz</item>
+        <item>48.0 kHz</item>
+        <item>88.2 kHz</item>
+        <item>96.0 kHz</item>
+        <item>176.4 kHz</item>
+        <item>192.0 kHz</item>
+    </string-array>
+
+    <!-- Titles for Bluetooth Audio Codec LHDC Playback Quality selection preference. [CHAR LIMIT=70] -->
+    <string-array name="bluetooth_a2dp_codec_lhdc_playback_quality_titles" translatable="false" >
+        <item>Optimized for Connection Quality (64kbps)</item>
+        <item>Optimized for Connection Quality (128kbps)</item>
+        <item>Optimized for Connection Quality (192kbps)</item>
+        <item>Optimized for Connection Quality (256kbps)</item>
+        <item>Optimized for Connection Quality (320kbps)</item>
+        <item>Optimized for Connection Quality (400kbps)</item>
+        <item>Balanced Audio And Connection Quality (500kbps)</item>
+        <item>High Audio Quality (900kbps)</item>
+        <item>High Audio Quality (1000kbps)</item>
+        <item>Best Effort (Auto Bit Rate)</item>
+    </string-array>
+
+    <!-- Values for Bluetooth Audio Codec LHDC Playback Quaility selection preference. -->
+    <string-array name="bluetooth_a2dp_codec_lhdc_playback_quality_values" translatable="false" >
+        <item>32768</item>
+        <item>32769</item>
+        <item>32770</item>
+        <item>32771</item>
+        <item>32772</item>
+        <item>32773</item>
+        <item>32774</item>
+        <item>32775</item>
+        <item>32776</item>
+        <item>32777</item>
+    </string-array>
+
+    <!-- Summaries for Bluetooth Audio Codec LHDC Playback Quality selection preference. [CHAR LIMIT=70]-->
+    <string-array name="bluetooth_a2dp_codec_lhdc_playback_quality_summaries" translatable="false" >
+        <item>64 kbps</item>
+        <item>128 kbps</item>
+        <item>192 kbps</item>
+        <item>256 kbps</item>
+        <item>320 kbps</item>
+        <item>400 kbps</item>
+        <item>500 kbps</item>
+        <item>900 kbps</item>
+        <item>1000 kbps</item>
+        <item>Auto Bit Rate</item>
+    </string-array>
+
+    <!-- Titles for Bluetooth Audio Codec LHDC Low Latency selection preference. [CHAR LIMIT=70] -->
+    <string-array name="bluetooth_a2dp_codec_lhdc_latency_titles" translatable="false" >
+        <item>Low Latency Mode Disable</item>
+        <item>Low Latency Mode Enable</item>
+    </string-array>
+
+    <!-- Values for Bluetooth Audio Codec LHDC Latency selection preference. -->
+    <string-array name="bluetooth_a2dp_codec_lhdc_latency_values" translatable="false" >
+        <item>49152</item>
+        <item>49153</item>
+    </string-array>
+
+    <!-- Summaries for Bluetooth Audio Codec LHDC Latency selection preference. [CHAR LIMIT=70]-->
+    <string-array name="bluetooth_a2dp_codec_lhdc_latency_summaries" translatable="false" >
+        <item>Low Latency OFF</item>
+        <item>Low Latency ON</item>
+    </string-array>
+
+    <!-- Titles for Bluetooth Audio Codec LHDC 3DAR Effect selection preference. [CHAR LIMIT=70] -->
+    <string-array name="bluetooth_enable_a2dp_codec_lhdc_ar_effect_titles" translatable="false" >
+        <item>OFF</item>
+        <item>ON</item>
+    </string-array>
+
+    <!-- Values for Bluetooth Audio Codec LHDC AR Effect selection preference -->
+    <string-array name="bluetooth_enable_a2dp_codec_lhdc_ar_effect_values" translatable="false" >
+        <item>0</item>
+        <item>2</item>
+    </string-array>
+
+    <!-- Summaries for Bluetooth Audio Codec LHDC AR Effect selection preference [CHAR LIMIT=70]-->
+    <string-array name="bluetooth_enable_a2dp_codec_lhdc_ar_effect_summaries" translatable="false" >
+        <item>LHDC 3DAR Effect OFF</item>
+        <item>LHDC 3DAR Effect ON</item>
+    </string-array>
+
+    <!-- Titles for Bluetooth Audio Codec LHDC Lossless selection preference. [CHAR LIMIT=70] -->
+    <string-array name="bluetooth_enable_a2dp_codec_lhdc_lossless_titles" translatable="false" >
+        <item>OFF</item>
+        <item>ON</item>
+    </string-array>
+
+    <!-- Values for Bluetooth Audio Codec LHDC Lossless selection preference -->
+    <string-array name="bluetooth_enable_a2dp_codec_lhdc_lossless_values" translatable="false" >
+        <item>0</item>
+        <item>2</item>
+    </string-array>
+
+    <!-- Summaries for Bluetooth Audio Codec LHDC Lossless selection preference [CHAR LIMIT=70]-->
+    <string-array name="bluetooth_enable_a2dp_codec_lhdc_lossless_summaries" translatable="false" >
+        <item>LHDC Lossless OFF</item>
+        <item>LHDC Lossless ON</item>
+    </string-array>
+
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
+        <item>990/909 kbps</item>
+        <item>660/606 kbps</item>
+        <item>330/303 kbps</item>
+        <item>Adaptive Bit Rate</item>
+    </string-array>
+
+    <string-array name="bluetooth_a2dp_codec_lc3plus_hr_playback_quality_summaries_2m5_48k">
+        <item>345.6 kbps</item>
+        <item>480 kbps</item>
+        <item>640 kbps</item>
+        <item>832 kbps</item>
+        <item>1344 kbps</item>
+        <item>Auto Bitrate</item>
+    </string-array>
+
+    <string-array name="bluetooth_a2dp_codec_lc3plus_hr_playback_quality_summaries_2m5_96k">
+        <item>396.8 kbps</item>
+        <item>512 kbps</item>
+        <item>704 kbps</item>
+        <item>832 kbps</item>
+        <item>1344 kbps</item>
+        <item>Auto Bitrate</item>
+    </string-array>
+
+    <string-array name="bluetooth_a2dp_codec_lc3plus_hr_playback_quality_summaries_05m_48k">
+        <item>297.6 kbps</item>
+        <item>384 kbps</item>
+        <item>576 kbps</item>
+        <item>832 kbps</item>
+        <item>1200 kbps</item>
+        <item>Auto Bitrate</item>
+    </string-array>
+
+    <string-array name="bluetooth_a2dp_codec_lc3plus_hr_playback_quality_summaries_05m_96k">
+        <item>348.8 kbps</item>
+        <item>416 kbps</item>
+        <item>672 kbps</item>
+        <item>832 kbps</item>
+        <item>1200 kbps</item>
+        <item>Auto Bitrate</item>
+    </string-array>
+
+    <string-array name="bluetooth_a2dp_codec_lc3plus_hr_playback_quality_summaries_10m_48k">
+        <item>249.6 kbps</item>
+        <item>336 kbps</item>
+        <item>656 kbps</item>
+        <item>832 kbps</item>
+        <item>1000 kbps</item>
+        <item>Auto Bitrate</item>
+    </string-array>
+
+    <string-array name="bluetooth_a2dp_codec_lc3plus_hr_playback_quality_summaries_10m_96k">
+        <item>299.2 kbps</item>
+        <item>400 kbps</item>
+        <item>656 kbps</item>
+        <item>832 kbps</item>
+        <item>1000 kbps</item>
+        <item>Auto Bitrate</item>
+    </string-array>
+
+    <integer-array name="bluetooth_a2dp_codec_lc3plus_hr_playback_quality_values_2m5_48k">
+        <item>345600</item>
+        <item>480000</item>
+        <item>640000</item>
+        <item>832000</item>
+        <item>1344000</item>
+        <item>0</item>
+    </integer-array>
+
+    <integer-array name="bluetooth_a2dp_codec_lc3plus_hr_playback_quality_values_2m5_96k">
+        <item>396800</item>
+        <item>512000</item>
+        <item>704000</item>
+        <item>832000</item>
+        <item>1344000</item>
+        <item>0</item>
+    </integer-array>
+
+    <integer-array name="bluetooth_a2dp_codec_lc3plus_hr_playback_quality_values_05m_48k">
+        <item>297600</item>
+        <item>384000</item>
+        <item>576000</item>
+        <item>832000</item>
+        <item>1200000</item>
+        <item>0</item>
+    </integer-array>
+
+    <integer-array name="bluetooth_a2dp_codec_lc3plus_hr_playback_quality_values_05m_96k">
+        <item>348800</item>
+        <item>416000</item>
+        <item>672000</item>
+        <item>832000</item>
+        <item>1200000</item>
+        <item>0</item>
+    </integer-array>
+
+    <integer-array name="bluetooth_a2dp_codec_lc3plus_hr_playback_quality_values_10m_48k">
+        <item>249600</item>
+        <item>336000</item>
+        <item>656000</item>
+        <item>832000</item>
+        <item>1000000</item>
+        <item>0</item>
+    </integer-array>
+
+    <integer-array name="bluetooth_a2dp_codec_lc3plus_hr_playback_quality_values_10m_96k">
+        <item>299200</item>
+        <item>400000</item>
+        <item>656000</item>
+        <item>832000</item>
+        <item>1000000</item>
+        <item>0</item>
+    </integer-array>
+
+
+    <string-array name="lc3plus_frame_ms_summaries">
+        <item>2.5 ms</item>
+        <item>5 ms</item>
+        <item>10 ms</item>
+    </string-array>
+</resources>
